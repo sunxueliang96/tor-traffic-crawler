@@ -29,3 +29,29 @@ def get_pid_firefox():
     out = out[:-2].split(' ')
     #print(out)
     return out
+
+def start_capture(labels,time_gaps,counts):
+    #get labels of urls first
+    labels = '_'.join(labels)
+    time_gaps = '_'.join(list(map(str,time_gaps)))
+
+    cmd = 'sudo tshark -w '+ capture_path +'/'+ labels + '-' + time_gaps + '-' + counts + '.cap -i any -f "port '+ str(sniff_port )+ '"'
+    tshark = subprocess.Popen(cmd,stdout=subprocess.PIPE,shell=True)
+    return tshark
+
+def stop_capture(process):
+    pids = get_pid('tshark')
+    for pid in pids:
+        cmd1 = "sudo kill -9 %s" % pid# . # -9 to kill force fully
+        os.system(cmd1)
+    if (process.wait())==-9 : # this will print -9 if killed force fully, else -15.
+       print('tshark killed force fully')
+
+    cmd_chmod = 'sudo chmod -R 777 '+ capture_path
+    chmod = subprocess.Popen(cmd_chmod,stdout=subprocess.PIPE,shell=True)
+
+def get_pid(name):
+    pids = subprocess.check_output(["pidof",name]).split()
+    pids_1 = []
+    [pids_1.append(int(pid)) for pid in pids]
+    return pids_1

@@ -1,6 +1,6 @@
 import subprocess
 from setting import *
-from utils import get_pid_firefox, vist_logger
+from utils import *
 import time 
 import random
 
@@ -11,10 +11,13 @@ class Visit():
         #the time sleep between the tabs visit
         self.gap_between_tabs = gap_between_tabs
         self.gap_between_visits = gap_between_visits
-        #prepare the tor socket and keep the pid
+        #prepare the tor socket and keep the pid safe
         self.protected_pid = get_pid_firefox()
+        self.capture_path = capture_path
+        self.sniff_port = sniff_port
 
-    def visits(self,urls): 
+
+    def visits(self,urls,labels,counts): 
         #random choose the time gap
         time_gaps = []
         for gap in urls:
@@ -23,6 +26,8 @@ class Visit():
         time_gaps = time_gaps[:-1]
         time_gaps.append(self.gap_between_visits)
         vist_logger(str(urls) + str(time_gaps))
+        #start traffic capture
+        p_tshark = start_capture(labels,time_gaps,counts)
         processes = []
         for url,gap in zip(urls,time_gaps):
             print("loading the "+str(url)+" and then sleep " + str(gap))
@@ -33,12 +38,13 @@ class Visit():
         for pid in pid_now:
             if pid not in self.protected_pid:
                 subprocess.Popen(['kill',pid])
-                print(pid + 'is killed')
-        
-urls = ['https://www.google.com','http://www.facebook.com','http://www.wikipedia.org']
-urls1 = ['http://www.amazon.com','http://www.bing.com']
-test = Visit()
-test.visits(urls)
-test.visits(urls1)
-#vist_logger("dsafdsa")
-
+                #print(pid + 'is killed')
+        print('all Tor Browsers are killed')
+        #kill tshark
+        stop_capture(p_tshark)
+#for test 
+#urls = ['https://www.google.com','http://www.facebook.com','http://www.wikipedia.org']
+#urls1 = ['http://www.amazon.com','http://www.bing.com']
+#test = Visit()
+#test.visits(urls,['0','1','2'])
+#test.visits(urls1,['3','4'])
