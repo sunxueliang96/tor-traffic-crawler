@@ -8,7 +8,9 @@ $bash ./path_to_tbb/firefox
 ## Second 
 $python crawler
 
-##################################################### FILES ##################################################### 
+
+
+# The Description of FILES
 crawler.py
 ### the core of crawler
 
