@@ -10,6 +10,8 @@ $python crawler
 
 ## You can find all .pcap at results/
 
+## It is recommanded to use the [docker image](https://registry.hub.docker.com/r/sunxueliang96/tor-traffic-crawler). 
+
 
 ## The screenshot
 ![screenshot](https://github.com/sunxueliang96/tor-traffic-crawler/blob/main/snap_shot/snap_shot.png)
