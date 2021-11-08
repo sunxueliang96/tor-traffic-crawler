@@ -10,6 +10,10 @@ $python crawler
 
 ## You can find all .pcap at results/
 
+
+## The screenshot
+![screenshot](https://github.com/sunxueliang96/tor-traffic-crawler/blob/main/snap_shot/snap_shot.png)
+
 # The Description of FILES
 crawler.py
 ### the core of crawler
