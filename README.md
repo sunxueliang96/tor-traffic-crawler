@@ -3,12 +3,12 @@
 # Quick Start
 
 ## First, start the tor service, and listen at socket 9150.
-$bash ./path_to_tbb/firefox
+$bash ./path_to_tbb/firefox  #if you download tbb.tar.xz from TOR project.
 
 ## Second 
 $python crawler
 
-
+## You can find all .pcap at results/
 
 # The Description of FILES
 crawler.py
