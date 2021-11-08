@@ -1,6 +1,6 @@
 
 #the path to TBB firefox
-tbb_dir = './tor-browser_en-US'
+tbb_dir = '/home/xmu/Desktop/tor_crawler/tor-browser_en-US'
 geckodriver_path = '/home/xmu/Desktop/tor_crawler/geckodriver'
 mon_websites_path = './targets/alexa_top_100.txt'
 

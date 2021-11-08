@@ -43,3 +43,8 @@ Fri Nov  5 11:54:09 2021 ['https://www.google.com', 'https://www.theguardian.com
 Fri Nov  5 11:54:51 2021 ['https://www.google.com', 'https://www.theguardian.com'][20, 20] 
 Fri Nov  5 13:30:33 2021 ['https://www.google.com', 'https://www.google.com'][22, 20] 
 Fri Nov  5 13:30:59 2021 ['https://www.google.com', 'https://www.pornhub.com'][25, 20] 
+Mon Nov  8 09:43:32 2021 ['https://www.google.com', 'https://www.imgur.com'][19, 20] 
+Mon Nov  8 09:44:11 2021 ['https://www.google.com', 'https://www.imgur.com'][23, 20] 
+Mon Nov  8 10:09:13 2021 ['https://www.google.com', 'https://www.blogspot.com'][18, 20] 
+Mon Nov  8 10:09:49 2021 ['https://www.google.com', 'https://www.espn.com'][23, 20] 
+Mon Nov  8 10:11:13 2021 ['https://www.google.com', 'https://www.steamcommunity.com'][22, 20] 

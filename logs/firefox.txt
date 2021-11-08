@@ -10026,3 +10026,437 @@ Error: no DISPLAY environment variable specified
 1636090260135	geckodriver	INFO	Listening on 127.0.0.1:42519
 1636090262140	mozrunner::runner	INFO	Running command: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWsMEPx"
 Error: no DISPLAY environment variable specified
+1636335812665	geckodriver	INFO	Listening on 127.0.0.1:52489
+1636335814660	mozrunner::runner	INFO	Running command: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilenSrGKt"
+[11-08 01:43:35] Torbutton INFO: Torbutton debug output ready
+[11-08 01:43:35] Torbutton INFO: domain isolator: set up isolating circuits by domain
+[11-08 01:43:35] Torbutton INFO: Component Load 0: New DragDropFilter.
+[11-08 01:43:35] Torbutton INFO: Startup Observer created
+[11-08 01:43:35] Torbutton INFO: This is a Tor Browser's XPCOM
+[11-08 01:43:35] TorLauncher INFO: debug output ready
+[11-08 01:43:35] TorLauncher INFO: SOCKS port type: TCP
+[11-08 01:43:35] TorLauncher INFO: SOCKS host: 127.0.0.1
+[11-08 01:43:35] TorLauncher INFO: SOCKS port: 9150
+[11-08 01:43:35] Torbutton INFO: Reset socks host to 127.0.0.1
+[11-08 01:43:35] Torbutton INFO: Reset socks port to 9150
+[11-08 01:43:35] Torbutton INFO: Synced network settings to environment.
+[11-08 01:43:35] Torbutton INFO: Listening for message from NoScript.
+[11-08 01:43:35] Torbutton NOTE: Initializing security-prefs.js
+[11-08 01:43:35] Torbutton NOTE: security-prefs.js initialization complete
+[11-08 01:43:35] Torbutton INFO: Reset socks host to 127.0.0.1
+[11-08 01:43:35] Torbutton INFO: Reset socks port to 9150
+[11-08 01:43:35] Torbutton INFO: Synced network settings to environment.
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:35] Torbutton INFO: Loading tor-control-port.js
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:35] Torbutton INFO: New window
+[11-08 01:43:35] Torbutton INFO: called init()
+[11-08 01:43:35] Torbutton INFO: Torbutton Tor Check Service initialized
+[11-08 01:43:35] Torbutton INFO: controlPort << authenticate 7641416c606821673c235a5577705e46
+setevents stream
+[11-08 01:43:35] Torbutton INFO: controlPort <<
+[11-08 01:43:35] Torbutton INFO: controlPort >> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 237: Error: authenticate 7641416c606821673c235a5577705e46 -> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 01:43:35] Torbutton NOTE: Unexpected auth response on control port 9151:515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 01:43:35] Torbutton INFO: init completed
+[11-08 01:43:35] Torbutton INFO: Torbutton main window startup
+[11-08 01:43:35] Torbutton INFO: Window: (1,1) ?= (1920,1080)
+[11-08 01:43:35] Torbutton DBUG: Window is normal
+[11-08 01:43:35] Torbutton NOTE: Unexpected auth response on control port 9151:515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 01:43:36] Torbutton INFO: called init()
+[11-08 01:43:36] Torbutton INFO: Torbutton debug output ready
+[11-08 01:43:36] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 01:43:36] Torbutton INFO: tor SOCKS: https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2021-12-10-14-46-08.chain via
+                       --unknown--:c18b7f56ee4a9a2ac3598121adf939a8
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+1636335816625	Marionette	INFO	Listening on port 45305
+1636335816667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://b7c60d98-0952-430d-9845-b7eb173ad6e3/background-scripts/background.js, line 688: TypeError: store.local is undefined
+[11-08 01:43:36] Torbutton INFO: Message received from NoScript: [{"__meta":{"name":"started","recipientInfo":null},"_messageName":"started"}]
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:37] Torbutton INFO: tor SOCKS: https://www.google.com/ via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+JavaScript error: resource:///modules/ExtensionMessaging.jsm, line 70: Error: Promised response from onMessage listener went out of scope
+[11-08 01:43:38] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:39] Torbutton INFO: tor SOCKS: https://www.https-rulesets.org/v1//latest-rulesets-timestamp via
+                       --unknown--:c18b7f56ee4a9a2ac3598121adf939a8
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:40] Torbutton INFO: Torbutton debug output ready
+[11-08 01:43:40] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.google.com/xjs/_/js/k=xjs.s.uk.XxWkK8FxT6U.O/am=CBgBAAAEABAAAZiBAAAAAAAACgIIPBgAIACoERIwAAAABAAQAAAIAYAGEgLGeIAAAAAAH9EFAPwBADyCJVwAAAAAAAAgAC2pDDVIBAQAAQAAAACxmqBmQEgAAAQE/d=1/ed=1/dg=2/rs=ACT90oEQwsrPG62FelXvrWg1pCSE-R8OOA/m=cdos,cr,dpf,hsm,jsa,d,csi via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.google.com/tia/tia.png via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.gstatic.com/og/_/js/k=og.qtm.en_US.75zE3OGOif4.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTtxj8WxYDU47Y0XcqogWaw-Uu28BQ via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.gstatic.com/og/_/ss/k=og.qtm.r_GPrdRw4Fw.L.F4.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/ct=zgms/rs=AA2YrTvFZJcxa7apkHxblgW9U5TsP0mCFA via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.gstatic.com/inputtools/images/tia.png via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.google.com/images/searchbox/desktop_searchbox_sprites318_hr.webp via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.https-rulesets.org/ddg//latest-bloom-timestamp via
+                       --unknown--:c18b7f56ee4a9a2ac3598121adf939a8
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: https://www.google.com/gen_204?s=webhp&t=aft&atyp=csi&ei=y4CIYbakKoiL9u8Prf6JoAU&rt=wsrt.100,aft.300,prt.0&imn=2&ima=1&imad=0&aftp=900&bl=gQ1a via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:40] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://securedrop.org/https-everywhere-2021//latest-rulesets-timestamp via
+                       --unknown--:c18b7f56ee4a9a2ac3598121adf939a8
+[11-08 01:43:41] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://www.google.com/complete/search?q&cp=0&client=gws-wiz&xssi=t&hl=uk&authuser=0&psi=y4CIYbakKoiL9u8Prf6JoAU.1636335821200&nolsbt=1&dpr=1 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://www.google.com/xjs/_/js/k=xjs.s.uk.XxWkK8FxT6U.O/ck=xjs.s.b6Qt6OdWOUo.L.F4.O/am=CBgBAAAEABAAAZiBAAAAAAAACgIIPBgAIACoERIwAAAABAAQAAAIAYAGEgLGeIAAAAAAH9EFAPwBADyCJVwAAAAAAAAgAC2pDDVIBAQAAQAAAACxmqBmQEgAAAQE/d=1/exm=cdos,cr,csi,d,dpf,hsm,jsa/ed=1/dg=2/rs=ACT90oGc93AIUd4Acv11LIKw3NhQT-rlLw/ee=LEikZe:byfTOb,lsjVmc/m=DhPYme,EkevXb,GU4Gab,NzU6V,aa,abd,async,dvl,mu,pHXghd,sb_wiz,sf?xjs=s1 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://www.google.com/client_204?&atyp=i&biw=1000&bih=900&ei=y4CIYbakKoiL9u8Prf6JoAU via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.hvE_rrhCzPE.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-98F2Gk-siNaIBZOtcWfXQWKdTpQ/cb=gapi.loaded_0 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://www.google.com/xjs/_/js/k=xjs.s.uk.XxWkK8FxT6U.O/ck=xjs.s.b6Qt6OdWOUo.L.F4.O/am=CBgBAAAEABAAAZiBAAAAAAAACgIIPBgAIACoERIwAAAABAAQAAAIAYAGEgLGeIAAAAAAH9EFAPwBADyCJVwAAAAAAAAgAC2pDDVIBAQAAQAAAACxmqBmQEgAAAQE/d=1/exm=DhPYme,EkevXb,GU4Gab,NzU6V,aa,abd,async,cdos,cr,csi,d,dpf,dvl,hsm,jsa,mu,pHXghd,sb_wiz,sf/ed=1/dg=2/rs=ACT90oGc93AIUd4Acv11LIKw3NhQT-rlLw/ee=LEikZe:byfTOb,lsjVmc/m=LtQuz,UFZhBc,fXO0xe,kQvlef?xjs=s2 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://www.google.com/gen_204?atyp=i&ei=y4CIYbakKoiL9u8Prf6JoAU&dt19=2&zx=1636335821900 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:41] Torbutton INFO: tor SOCKS: https://www.google.com/client_204?cs=1 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:42] Torbutton INFO: tor SOCKS: http://securedrop.org/https-everywhere-2021/latest-rulesets-timestamp via
+                       --unknown--:c18b7f56ee4a9a2ac3598121adf939a8
+[11-08 01:43:42] Torbutton INFO: tor SOCKS: https://securedrop.org/https-everywhere-2021/latest-rulesets-timestamp via
+                       --unknown--:c18b7f56ee4a9a2ac3598121adf939a8
+[11-08 01:43:42] Torbutton INFO: tor SOCKS: https://www.google.com/favicon.ico via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:42] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:43] Torbutton INFO: tor SOCKS: https://www.google.com/gen_204?atyp=csi&ei=y4CIYbakKoiL9u8Prf6JoAU&s=webhp&t=all&bl=gQ1a&imn=2&ima=1&imad=0&aftp=900&adh=&ime=1&imex=1&imeh=1&imea=0&imeb=0&wh=900&scp=0&sto=&sys=hc.2&rt=aft.300,prt.0,afti.300,aftqf.300,xjses.800,xjsee.900,xjs.900,dcl.900,ol.3300,wsrt.100&zx=1636335823600 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:43] Torbutton INFO: tor SOCKS: https://adservice.google.com/adsid/google/ui via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:44] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:45] Torbutton INFO: tor SOCKS: https://adservice.google.com.ua/adsid/google/ui?gadsid=AORoGNSMSoMWtUFMyP5h7plV2L3LI1tPy4r3FIIlvRkxurWAohnvNtqPWg via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:46] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:47] Torbutton INFO: tor SOCKS: https://googleads.g.doubleclick.net/adsid/google/ui?gadsid=AORoGNSAoSfm-S5TWB0Ex6aQIGoyE6zeFIhNwzIeJNXxWo2nMtAvdxdX6poT via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:48] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:49] Torbutton INFO: tor SOCKS: https://adservice.google.com/adsid/google/si?gadsid=AORoGNQ7dNRF5ah_esev_bSm3iY60BT3eOws3y46RCsUTI4TMIApScTTm_gZ via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:49] Torbutton INFO: tor SOCKS: https://adservice.google.com.ua/adsid/google/si?gadsid=AORoGNRM68eOyTZQJZqppyKwv5dVbmS1gswBefijy0NBjLYe_TyYIxuN85_J via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+[11-08 01:43:50] Torbutton INFO: tor SOCKS: https://googleads.g.doubleclick.net/adsid/google/si?gadsid=AORoGNRYrGUqqNNumQKY34yKAU_b6n8vGSDen0pmiW_NlWcqhY5ZWDNyYYet via
+                       google.com:432c0d4314125c63c797cd1d27f54464
+1636335831682	geckodriver	INFO	Listening on 127.0.0.1:54019
+1636335833680	mozrunner::runner	INFO	Running command: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQTZsbR"
+[11-08 01:43:54] Torbutton INFO: Torbutton debug output ready
+[11-08 01:43:54] Torbutton INFO: domain isolator: set up isolating circuits by domain
+[11-08 01:43:54] Torbutton INFO: Component Load 0: New DragDropFilter.
+[11-08 01:43:54] Torbutton INFO: Startup Observer created
+[11-08 01:43:54] Torbutton INFO: This is a Tor Browser's XPCOM
+[11-08 01:43:54] TorLauncher INFO: debug output ready
+[11-08 01:43:54] TorLauncher INFO: SOCKS port type: TCP
+[11-08 01:43:54] TorLauncher INFO: SOCKS host: 127.0.0.1
+[11-08 01:43:54] TorLauncher INFO: SOCKS port: 9150
+[11-08 01:43:54] Torbutton INFO: Reset socks host to 127.0.0.1
+[11-08 01:43:54] Torbutton INFO: Reset socks port to 9150
+[11-08 01:43:54] Torbutton INFO: Synced network settings to environment.
+[11-08 01:43:54] Torbutton INFO: Listening for message from NoScript.
+[11-08 01:43:54] Torbutton NOTE: Initializing security-prefs.js
+[11-08 01:43:54] Torbutton NOTE: security-prefs.js initialization complete
+[11-08 01:43:54] Torbutton INFO: Reset socks host to 127.0.0.1
+[11-08 01:43:54] Torbutton INFO: Reset socks port to 9150
+[11-08 01:43:54] Torbutton INFO: Synced network settings to environment.
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:54] Torbutton INFO: Loading tor-control-port.js
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:54] Torbutton INFO: New window
+[11-08 01:43:54] Torbutton INFO: called init()
+[11-08 01:43:54] Torbutton INFO: Torbutton Tor Check Service initialized
+[11-08 01:43:54] Torbutton INFO: controlPort << authenticate 6965324f62295c653f2e3e3170797228
+setevents stream
+[11-08 01:43:54] Torbutton INFO: controlPort <<
+[11-08 01:43:54] Torbutton INFO: controlPort >> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 237: Error: authenticate 6965324f62295c653f2e3e3170797228 -> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 01:43:54] Torbutton NOTE: Unexpected auth response on control port 9151:515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 01:43:54] Torbutton INFO: init completed
+[11-08 01:43:54] Torbutton INFO: Torbutton main window startup
+[11-08 01:43:54] Torbutton INFO: Window: (1,1) ?= (1920,1080)
+[11-08 01:43:54] Torbutton DBUG: Window is normal
+[11-08 01:43:54] Torbutton NOTE: Unexpected auth response on control port 9151:515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 01:43:54] Torbutton INFO: called init()
+[11-08 01:43:55] Torbutton INFO: Torbutton debug output ready
+[11-08 01:43:55] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 01:43:55] Torbutton INFO: tor SOCKS: https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2021-12-10-14-46-08.chain via
+                       --unknown--:5fe4f46d3ef764b3228712806dd60ad5
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+1636335835705	Marionette	INFO	Listening on port 46103
+JavaScript error: moz-extension://b7c60d98-0952-430d-9845-b7eb173ad6e3/background-scripts/background.js, line 688: TypeError: store.local is undefined
+1636335835789	Marionette	WARN	TLS certificate errors will be ignored for this session
+[11-08 01:43:55] Torbutton INFO: Message received from NoScript: [{"__meta":{"name":"started","recipientInfo":null},"_messageName":"started"}]
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:43:56] Torbutton INFO: tor SOCKS: https://www.imgur.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+JavaScript error: resource:///modules/ExtensionMessaging.jsm, line 70: Error: Promised response from onMessage listener went out of scope
+[11-08 01:43:58] Torbutton INFO: tor SOCKS: https://www.https-rulesets.org/v1//latest-rulesets-timestamp via
+                       --unknown--:5fe4f46d3ef764b3228712806dd60ad5
+[11-08 01:43:58] Torbutton INFO: tor SOCKS: https://imgur.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://www.https-rulesets.org/ddg//latest-bloom-timestamp via
+                       --unknown--:5fe4f46d3ef764b3228712806dd60ad5
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://securedrop.org/https-everywhere-2021//latest-rulesets-timestamp via
+                       --unknown--:5fe4f46d3ef764b3228712806dd60ad5
+[11-08 01:44:00] Torbutton INFO: Torbutton debug output ready
+[11-08 01:44:00] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://js.media-lab.ai/ana-sentry.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://js.media-lab.ai/wana.2.0.8.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/css/styles.0e0a1c632de779054440.css via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://s.imgur.com/min/px.js?ch=1 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://s.imgur.com/min/px.js?ch=2 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:00] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/js/main.3a94242258df9900a0a6.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:01] Torbutton INFO: tor SOCKS: http://securedrop.org/https-everywhere-2021/latest-rulesets-timestamp via
+                       --unknown--:5fe4f46d3ef764b3228712806dd60ad5
+[11-08 01:44:01] Torbutton INFO: tor SOCKS: https://securedrop.org/https-everywhere-2021/latest-rulesets-timestamp via
+                       --unknown--:5fe4f46d3ef764b3228712806dd60ad5
+[11-08 01:44:02] Torbutton INFO: tor SOCKS: https://browser.sentry-cdn.com/6.11.0/bundle.min.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:02] Torbutton INFO: tor SOCKS: https://quantcast.mgr.consensu.org/choice/f8oruOqDFlMeI/imgur.com/choice.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:03] Torbutton INFO: tor SOCKS: https://connect.facebook.net/en_US/fbevents.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca2020 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://t.imgur.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://secure.quantserve.com/quant.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://certify-js.alexametrics.com/atrk.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/js/vendors~accountFavorite~gallery~hiddenAlbum~home~leaderboard~notfoundpage~profile~tags~upload~uploadAlbum.68f00ea56825372a2c9b.bundle.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/js/vendors~accountFavorite~gallery~hiddenAlbum~home~notfoundpage~profile-favorites~profile-posts~tags~u~e92babf5.5e3f4adebb49f480911b.bundle.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/css/0.styles.9ea87b0d9eef6d2345a7.css via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/js/accountFavorite~gallery~hiddenAlbum~home~leaderboard~notfoundpage~profile~secretsanta~tags~upload~uploadAlbum.4ce2cde3be2b7d00b20a.bundle.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/css/3.styles.dba4635bc41806a4fe89.css via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/js/accountFavorite~gallery~hiddenAlbum~home~leaderboard~notfoundpage~profile~tags~upload.f8ffd47310a3f0507edf.bundle.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/css/43.styles.e169066ab989b1e51250.css via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/js/home.b528b65b06c00be1b9f3.bundle.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://api.imgur.com/3/configuration/desktop?client_id=546c25a59c58ad7 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://secure.quantserve.com/quant.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=imgur.com via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:05] Torbutton INFO: tor SOCKS: http://ocsp.digicert.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://d3c8j8snkzfr1n.cloudfront.net/script.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://ced.sascdn.com/tag/1357/smart.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://ced-ns.sascdn.com/diff/templates/ts/dist/viewability/sas-viewability-1.1.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://apps.media-lab.ai/doh/sync?uid=8eb2e4c8-9c2b-4bdb-b59c-a30f69d3fdee&property_id=imgur.com via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://apps.media-lab.ai/doh/sync?uid=8eb2e4c8-9c2b-4bdb-b59c-a30f69d3fdee&property_id=imgur.com via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-new-post.13ab64f9f36ad8f25ae3544b350e2ae1.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/images/favicon-32x32.png via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-filter.551faed00bcf04e07c9e01a6874bd652.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-pause.68f07ce1a7e07bac06d1f2c527d7a9e5.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://api.imgur.com/3/account/me?client_id=546c25a59c58ad7 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://api.imgur.com/homepage/v1/messages/random?client_id=546c25a59c58ad7&filter%5Btype%5D=welcome via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://api.imgur.com/3/tags?client_id=546c25a59c58ad7 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/fonts/proxima-nova-regular.woff2 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/fonts/proxima-nova-bold.woff2 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://api.imgur.com/post/v1/posts?client_id=546c25a59c58ad7&filter%5Bsection%5D=eq%3Ahot&include=adtiles%2Cadconfig%2Ccover%2Cviral&location=desktophome&page=1&sort=-time via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-giraffe.501dbfc5c5f48f59682bb1be94f53086.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-upvote.cdb953ee8c9b11124a19792e792d4dae.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-heart.37678722b0694007b31eeeec3b340424.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/fonts/imgur.woff via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: http://ocsp.digicert.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://test.quantcast.mgr.consensu.org/GVL-v2/cmp-list.json via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:06] Torbutton INFO: tor SOCKS: https://s.imgur.com/desktop-assets/desktop-assets/icon-points.5867bfb88971853dcfdf49b18f8455b9.svg via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:07] Torbutton INFO: tor SOCKS: https://o435357.ingest.sentry.io/api/5991907/envelope/?sentry_key=360b929fdaf84c15852920901c00fa3c&sentry_version=7 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:07] Torbutton INFO: tor SOCKS: https://certify.alexametrics.com/atrk.gif?frame_height=900&frame_width=1000&iframe=0&title=Imgur%3A%20The%20magic%20of%20the%20Internet&time=1636335847400&time_zone_offset=0&screen_params=1000x900x24&java_enabled=0&cookie_enabled=1&ref_url=&host_url=https%3A%2F%2Fimgur.com%2F&random_number=13465966987&sess_cookie=683af99d17cfd3787e80845eac3&sess_cookie_flag=1&user_cookie=683af99d17cfd3787e80845eac3&user_cookie_flag=1&dynamic=true&domain=imgur.com&account=5Knnt1ah9W20em&jsv=20130128&user_lang=en-US via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:07] Torbutton INFO: tor SOCKS: https://redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:07] Torbutton INFO: tor SOCKS: https://connect.facebook.net/signals/config/742377892535530?v=2.9.48&r=stable via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+JavaScript error: https://s.imgur.com/desktop-assets/js/main.3a94242258df9900a0a6.js, line 39: TypeError: r is undefined
+JavaScript error: https://s.imgur.com/desktop-assets/js/main.3a94242258df9900a0a6.js, line 1: TypeError: navigator.credentials is undefined
+[11-08 01:44:07] Torbutton INFO: tor SOCKS: https://t.imgur.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: https://i.clean.gg/1a via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: https://i.clean.gg/1a via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: http://r3.o.lencr.org/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: https://rules.quantcount.com/rules-p-f8oruOqDFlMeI.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: http://ocsp.sca1b.amazontrust.com/ via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: https://www.facebook.com/tr/?id=742377892535530&ev=PageView&dl=https%3A%2F%2Fimgur.com%2F&rl=&if=false&ts=1636335849000&sw=1000&sh=900&v=2.9.48&r=stable&ec=0&o=30&fbp=fb.1.1636335849000.32219856&it=1636335847800&coo=false&exp=p0&rqm=GET via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:08] Torbutton INFO: tor SOCKS: https://quantcast.mgr.consensu.org/tcfv2/36/cmp2ui-en.js via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:09] Torbutton INFO: tor SOCKS: https://quantcast.mgr.consensu.org/GVL-v2/vendor-list-trimmed-v1.json via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:09] Torbutton INFO: tor SOCKS: https://quantcast.mgr.consensu.org/tcfv2/google-atp-list.json via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:09] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1d4 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:09] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1d4 via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:09] Torbutton INFO: tor SOCKS: https://www.facebook.com/tr/?id=742377892535530&ev=Microdata&dl=https%3A%2F%2Fimgur.com%2F&rl=&if=false&ts=1636335849500&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Imgur%3A%20The%20magic%20of%20the%20Internet%22%2C%22meta%3Akeywords%22%3A%22funny%2C%20image%2C%20gif%2C%20gifs%2C%20memes%2C%20jokes%2C%20image%20upload%2C%20upload%20image%2C%20lol%2C%20humor%2C%20vote%2C%20comment%2C%20share%2C%20imgur%2C%20imgur.com%2C%20wallpaper%22%2C%22meta%3Adescription%22%3A%22Discover%20the%20magic%20of%20the%20internet%20at%20Imgur%2C%20a%20community%20powered%20entertainment%20destination.%20Lift%20your%20spirits%20with%20funny%20jokes%2C%20trending%20memes%2C%20entertaining%20gifs%2C%20inspiring%20stories%2C%20viral%20videos%2C%20and%20so%20much%20more.%22%7D&cd[OpenGraph]=%7B%22og%3Asite_name%22%3A%22Imgur%22%2C%22article%3Aauthor%22%3A%22Imgur%22%2C%22article%3Apublisher%22%3A%22https%3A%2F%2Fwww.facebook.com%2Fimgur%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Atitle%22%3A%22Imgur%22%2C%22og%3Adescription%22%3A%22Imgur%3A%20The%20magic%20of%20the%20Internet%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=1000&sh=900&v=2.9.48&r=stable&ec=1&o=30&fbp=fb.1.1636335849000.32219856&it=1636335847800&coo=false&es=automatic&tm=3&exp=p0&rqm=GET via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:09] Torbutton INFO: tor SOCKS: https://audit-tcfv2.quantcast.mgr.consensu.org/?log=%7B%22accountId%22%3A%22f8oruOqDFlMeI%22%2C%22domain%22%3A%22imgur.com%22%2C%22publisher%22%3A%22Imgur%22%2C%22cmpId%22%3A10%2C%22cmpVersion%22%3A%222.36%22%2C%22displayType%22%3A%22tcfui%3Amandatory%22%2C%22configurationHashCode%22%3A%22c9TMFz82doefCww0KaW23Q%22%2C%22clientTimestamp%22%3A1636335849600%2C%22operationType%22%3A%22init%22%2C%22sessionId%22%3A%22GDPR-x4u79ks6exzcnp5327xi%22%7D via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:10] Torbutton INFO: tor SOCKS: https://s.imgur.com/images/favicon-96x96.png via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+[11-08 01:44:10] Torbutton INFO: tor SOCKS: https://s.imgur.com/images/favicon-16x16.png via
+                       imgur.com:32c28a19503a953ff29ac560cba8d9bc
+1636335851775	geckodriver	INFO	Listening on 127.0.0.1:44431
+1636335853775	mozrunner::runner	INFO	Running command: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileOUAw9y"
+1636337473990	geckodriver	INFO	Listening on 127.0.0.1:42031
+1636337475977	mozrunner::runner	INFO	Running command: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileDhu8xj"
+[11-08 02:11:16] Torbutton INFO: Torbutton debug output ready
+[11-08 02:11:16] Torbutton INFO: domain isolator: set up isolating circuits by domain
+[11-08 02:11:16] Torbutton INFO: Component Load 0: New DragDropFilter.
+[11-08 02:11:16] Torbutton INFO: Startup Observer created
+[11-08 02:11:16] Torbutton INFO: This is a Tor Browser's XPCOM
+[11-08 02:11:16] TorLauncher INFO: debug output ready
+[11-08 02:11:16] TorLauncher INFO: SOCKS port type: TCP
+[11-08 02:11:16] TorLauncher INFO: SOCKS host: 127.0.0.1
+[11-08 02:11:16] TorLauncher INFO: SOCKS port: 9150
+[11-08 02:11:16] Torbutton INFO: Reset socks host to 127.0.0.1
+[11-08 02:11:16] Torbutton INFO: Reset socks port to 9150
+[11-08 02:11:16] Torbutton INFO: Synced network settings to environment.
+[11-08 02:11:16] Torbutton INFO: Listening for message from NoScript.
+[11-08 02:11:16] Torbutton NOTE: Initializing security-prefs.js
+[11-08 02:11:16] Torbutton NOTE: security-prefs.js initialization complete
+[11-08 02:11:16] Torbutton INFO: Reset socks host to 127.0.0.1
+[11-08 02:11:16] Torbutton INFO: Reset socks port to 9150
+[11-08 02:11:16] Torbutton INFO: Synced network settings to environment.
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 02:11:16] Torbutton INFO: Loading tor-control-port.js
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 02:11:17] Torbutton INFO: New window
+[11-08 02:11:17] Torbutton INFO: called init()
+[11-08 02:11:17] Torbutton INFO: Torbutton Tor Check Service initialized
+[11-08 02:11:17] Torbutton INFO: controlPort << authenticate 6d57287e43246e4d387942326b276b28
+setevents stream
+[11-08 02:11:17] Torbutton INFO: controlPort <<
+[11-08 02:11:17] Torbutton INFO: controlPort >> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 237: Error: authenticate 6d57287e43246e4d387942326b276b28 -> 515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 02:11:17] Torbutton NOTE: Unexpected auth response on control port 9151:515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 02:11:17] Torbutton INFO: init completed
+[11-08 02:11:17] Torbutton INFO: Torbutton main window startup
+[11-08 02:11:17] Torbutton INFO: Window: (1,1) ?= (1920,1080)
+[11-08 02:11:17] Torbutton DBUG: Window is normal
+[11-08 02:11:17] Torbutton NOTE: Unexpected auth response on control port 9151:515 Authentication failed: Password did not match HashedControlPassword *or* authentication cookie.
+[11-08 02:11:17] Torbutton INFO: called init()
+[11-08 02:11:17] Torbutton INFO: Torbutton debug output ready
+[11-08 02:11:17] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 02:11:17] Torbutton INFO: tor SOCKS: https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2021-12-10-14-46-08.chain via
+                       --unknown--:8a3ea74dcad9490d1e144ad118b21772
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+1636337477907	Marionette	INFO	Listening on port 41379
+1636337477982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://b7c60d98-0952-430d-9845-b7eb173ad6e3/background-scripts/background.js, line 688: TypeError: store.local is undefined
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 02:11:18] Torbutton INFO: Message received from NoScript: [{"__meta":{"name":"started","recipientInfo":null},"_messageName":"started"}]
+[11-08 02:11:19] Torbutton INFO: tor SOCKS: https://www.google.com/ via
+                       google.com:13774493d175bf40569c5238260a2c10
+JavaScript error: resource:///modules/ExtensionMessaging.jsm, line 70: Error: Promised response from onMessage listener went out of scope
+[11-08 02:11:20] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:20] Torbutton INFO: tor SOCKS: https://www.https-rulesets.org/v1//latest-rulesets-timestamp via
+                       --unknown--:8a3ea74dcad9490d1e144ad118b21772
+Fontconfig warning: "/home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/TorBrowser/Data/fontconfig/fonts.conf", line 85: unknown element "blank"
+[11-08 02:11:21] Torbutton INFO: Torbutton debug output ready
+[11-08 02:11:21] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 02:11:21] Torbutton INFO: tor SOCKS: https://www.google.com/xjs/_/js/k=xjs.s.en_GB.7w4Cy63jxD8.O/am=CBgBAAAEABAAAZiBAAAAAAAACgIIPBgAIACoERIwAAAABAAQAAAIAYAGEgLGeIAAAAAAH9EFAPwBADyCJVwAAAAAAAAgAC3BDDVIBAQAAQAAAACxmqBiQEgAAAQ/d=1/ed=1/dg=2/rs=ACT90oHsLLxoLKSjTyCQkiregdGTUEQGWQ/m=cdos,cr,dpf,hsm,jsa,d,csi via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:21] Torbutton INFO: tor SOCKS: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:22] Torbutton INFO: tor SOCKS: https://www.gstatic.com/og/_/js/k=og.qtm.en_US.75zE3OGOif4.O/rt=j/m=qabr,q_dnp,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTtxj8WxYDU47Y0XcqogWaw-Uu28BQ via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:22] Torbutton INFO: tor SOCKS: https://www.gstatic.com/og/_/ss/k=og.qtm.r_GPrdRw4Fw.L.F4.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/ct=zgms/rs=AA2YrTvFZJcxa7apkHxblgW9U5TsP0mCFA via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:22] Torbutton INFO: tor SOCKS: https://www.google.com/images/searchbox/desktop_searchbox_sprites318_hr.webp via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:22] Torbutton NOTE: no SOCKS credentials found for current document.
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/complete/search?q&cp=0&client=gws-wiz&xssi=t&hl=en-CA&authuser=0&psi=SYeIYcq7IMeZkwX8_4ToBw.1636337483000&nolsbt=1&dpr=1 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/xjs/_/js/k=xjs.s.en_GB.7w4Cy63jxD8.O/ck=xjs.s.b6Qt6OdWOUo.L.F4.O/am=CBgBAAAEABAAAZiBAAAAAAAACgIIPBgAIACoERIwAAAABAAQAAAIAYAGEgLGeIAAAAAAH9EFAPwBADyCJVwAAAAAAAAgAC3BDDVIBAQAAQAAAACxmqBiQEgAAAQ/d=1/exm=cdos,cr,csi,d,dpf,hsm,jsa/ed=1/dg=2/rs=ACT90oG51LgjR_nYalXUsbo4FTUJmhcD8w/ee=LEikZe:byfTOb,lsjVmc/m=DhPYme,EkevXb,GU4Gab,NzU6V,aa,abd,async,dvl,mu,pHXghd,sb_wiz,sf?xjs=s1 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/client_204?&atyp=i&biw=1000&bih=900&ei=SYeIYcq7IMeZkwX8_4ToBw via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/gen_204?s=webhp&t=aft&atyp=csi&ei=SYeIYcq7IMeZkwX8_4ToBw&rt=wsrt.100,aft.1000,prt.0&imn=1&ima=1&imad=0&aftp=900&bl=gQ1a via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.https-rulesets.org/ddg//latest-bloom-timestamp via
+                       --unknown--:8a3ea74dcad9490d1e144ad118b21772
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: http://ocsp.pki.goog/gts1c3 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/xjs/_/js/k=xjs.s.en_GB.7w4Cy63jxD8.O/ck=xjs.s.b6Qt6OdWOUo.L.F4.O/am=CBgBAAAEABAAAZiBAAAAAAAACgIIPBgAIACoERIwAAAABAAQAAAIAYAGEgLGeIAAAAAAH9EFAPwBADyCJVwAAAAAAAAgAC3BDDVIBAQAAQAAAACxmqBiQEgAAAQ/d=1/exm=DhPYme,EkevXb,GU4Gab,NzU6V,aa,abd,async,cdos,cr,csi,d,dpf,dvl,hsm,jsa,mu,pHXghd,sb_wiz,sf/ed=1/dg=2/rs=ACT90oG51LgjR_nYalXUsbo4FTUJmhcD8w/ee=LEikZe:byfTOb,lsjVmc/m=LtQuz,UFZhBc,fXO0xe,kQvlef?xjs=s2 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/gen_204?atyp=i&ei=SYeIYcq7IMeZkwX8_4ToBw&dt19=2&zx=1636337483400 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/client_204?cs=1 via
+                       google.com:13774493d175bf40569c5238260a2c10
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://securedrop.org/https-everywhere-2021//latest-rulesets-timestamp via
+                       --unknown--:8a3ea74dcad9490d1e144ad118b21772
+[11-08 02:11:23] Torbutton INFO: tor SOCKS: https://www.google.com/favicon.ico via
+                       google.com:13774493d175bf40569c5238260a2c10
+Gdk-Message: 02:11:24.018: /home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox.real: Fatal IO error 11 (Resource temporarily unavailable) on X server :1062794195.
+
+Gdk-Message: 02:11:24.018: /home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox.real: Fatal IO error 11 (Resource temporarily unavailable) on X server :1062794195.
+
+Gdk-Message: 02:11:24.019: /home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox.real: Fatal IO error 11 (Resource temporarily unavailable) on X server :1062794195.
+
+Gdk-Message: 02:11:24.026: /home/xmu/Desktop/tor_crawler/tor-browser_en-US/Browser/firefox.real: Fatal IO error 11 (Resource temporarily unavailable) on X server :1062794195.
+

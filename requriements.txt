@@ -3,3 +3,5 @@
 
 proxy
 tbselenium
+xvfbwrapper
+Xvfb
