@@ -1,7 +1,10 @@
-#tshark
+#apt install tshark,xvfb
 #download geckodirver
 
 proxy
 tbselenium
 xvfbwrapper
-Xvfb
+
+#only for python3
+#scapy
+#pyshark

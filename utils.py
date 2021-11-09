@@ -18,6 +18,12 @@ def vist_logger(content):
         print((str(localtime)+' '+str(content)+' \n'))
         f.write(str(localtime)+' '+str(content)+' \n')
 
+def parse_logger(content):
+    localtime = time.asctime(time.localtime(time.time()))
+    with open(parse_log_path,'a+') as f:
+        print((str(localtime)+' '+str(content)+' \n'))
+        f.write(str(localtime)+' '+str(content)+' \n')
+
 #return the pid of firefox.real -> list
 def get_pid_firefox():
     p = subprocess.Popen(['pidof', 'firefox.real'],
@@ -51,9 +57,12 @@ def stop_capture(process):
     chmod = subprocess.Popen(cmd_chmod,stdout=subprocess.PIPE,shell=True)
 
 def get_pid(name):
-    pids = subprocess.check_output(["pidof",name]).split()
-    pids_1 = []
-    [pids_1.append(int(pid)) for pid in pids]
-    return pids_1
+    try:
+        pids = subprocess.check_output(["pidof",name]).split()
+        pids_1 = []
+        [pids_1.append(int(pid)) for pid in pids]
+        return pids_1
+    except:
+        return [999999]#non-exit pid
 
 

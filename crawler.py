@@ -1,32 +1,33 @@
 from setting import *
-from utils import get_pid_firefox
+from utils import vist_logger
 from visit import Visit
 import random
 import subprocess
 from xvfbwrapper import Xvfb
 import time 
+import os 
+
 
 class Crawler():
     def __init__(self):
         self.mon_websites_path = mon_websites_path
         self.NB_of_tabs = NB_of_tabs
         self.NB_of_samples = NB_of_samples
+        #clean the logs
+        subprocess.Popen(['echo start','>',visit_log_path])
+        subprocess.Popen(['echo start','>',geckodriver_log_path])
+        subprocess.Popen(['echo start','>',parse_log_path])
+
     def read_mon_websites(self):
         with open(self.mon_websites_path,'r') as f:
             mon_websites = f.read().splitlines() 
         return mon_websites
-    def restartTBB(self):
-        #kill all tbb firstly.
-        pid_now = get_pid_firefox()
-        for pid in pid_now:
-            subprocess.Popen(['kill',pid])
-        print('all Tor Browsers are killed')
-        #start the TBB at default port
-        subprocess.Popen([tbb_dir+'/Browser/firefox','--headless'])
-        time.sleep(25)
-        print('Sleep 25 sec for waiting TBB launching')
+
     def crawler_CW(self):
-        self.restartTBB()
+        #start a new batch at each batch
+        p_firefox = subprocess.Popen([tbb_dir+'/Browser/firefox','--headless'])
+        vist_logger('[TBB] A New TBB started ')
+        time.sleep(25)
         mons = self.read_mon_websites()
         for target in mons:
             urls = []
@@ -40,14 +41,17 @@ class Crawler():
             mon_visit = Visit()
             for count in range(self.NB_of_samples):
                 mon_visit.visits(urls,labels,str(count))
-            #print(urls)
-            #print(labels)
+                os.system('python3 parse.py')
+        p_firefox.kill()
+        #start a new batch at each batch
+        vist_logger('[TBB] The TBB ended ')
 
     def crawler_OW(self):
         pass
     
 vdisplay = Xvfb(width=1920, height=1080)
 vdisplay.start()
-a = Crawler()
-a.crawler_CW()
+for i in range(NB_of_batches):
+    a = Crawler()
+    a.crawler_CW()
 vdisplay.stop()
