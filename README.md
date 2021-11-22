@@ -17,20 +17,17 @@ $python crawler
 ![screenshot](https://github.com/sunxueliang96/tor-traffic-crawler/blob/main/snap_shot/snap_shot.png)
 
 # The Description of FILES
-crawler.py
-### the core of crawler
+### crawler.py
+The core of crawler
 
-meta_visit.py
-### launch one visit to one site
+### meta_visit.py
+Launch one visit to one site
 
-setting.py
-### all configs
+### setting.py
+All configs
 
-utils.py
-### some utils/func
+### visit.py
+Launch a set of visits
 
-visit.py
-### launch a set of visits
-
-parse.py
-### you must code your own parse script
+### parse.py
+You must code your own parse script
