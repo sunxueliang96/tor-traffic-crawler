@@ -1,1 +1,7 @@
 start
+Sun Nov 14 14:03:43 2021 [TBB] A New TBB started  
+Sun Nov 14 14:04:08 2021 ['https://www.google.com', 'https://www.pinterest.com'][20, 20] 
+Sun Nov 14 14:04:49 2021 ['https://www.google.com', 'https://www.pinterest.com'][19, 20] 
+Sun Nov 14 14:05:29 2021 ['https://www.google.com', 'https://www.pinterest.com'][25, 20] 
+Sun Nov 14 14:06:15 2021 ['https://www.google.com', 'https://www.pinterest.com'][24, 20] 
+Sun Nov 14 14:06:59 2021 ['https://www.youtube.com', 'https://www.fc2.com'][18, 20] 

@@ -6,18 +6,15 @@ from setting import *
 threshold = 511
 
 def get_directions(pkt):
-    if TCP in pkt:
-        sport = pkt[TCP].sport
-        dport = pkt[TCP].dport
-    elif UDP in pkt:
-        sport = pkt[UDP].sport
-        dport = pkt[UDP].dport
-    if sport== sniff_port:
-        #receive == 1
-        return 1
-    else:
-        #send = -1 
+    src = pkt[IP].src
+    #if src == '8.8.8.8':
+    #	return 'sp'
+    if src[:3]=='172':
+        #send = -1
         return -1
+    else:
+        #recv = -1 
+        return 1
 
 def write_to_file(f,time,direc,size):
     f.writelines(str(time))
@@ -45,20 +42,21 @@ def read_tls(pcap_target):
 
     for packet,flag in zip(packets,flags):
         #print(flag)
-        if('SSL Layer' or 'TLS Layer' in flag):
-            size = len(packet)
-            if size<=threshold:
-                counts_packet_del = counts_packet_del + 1
-            else:
+        #if('SSL Layer' or 'TLS Layer' in flag):
+        size = len(packet)
+        if '8.8.8.8' in packet:
+            write_to_file('split_point\n')
+        if size<=88:
+            counts_packet_del = counts_packet_del + 1
+        else:
+            try:
                 time = float(packet.time) - start_time
                 direc = get_directions(packet)
                 #print(time,direc,size)
-                for i in range(int(size/threshold)):
-                    write_to_file(f,time,direc,size)
-        else:
-            counts_packet_nottls = counts_packet_nottls + 1
-    # except:
-    #pass
+                #for i in range(int(size/threshold)):
+                write_to_file(f,time,direc,size)
+            except:
+                pass
     f.close()
     print('{} tcp packets ({}%) are droped'.format(counts_packet_nottls,round(100*counts_packet_nottls/len(packets),2)))
     num_res = len(packets)-counts_packet_nottls
@@ -70,9 +68,9 @@ def parse_all_pcaps():
             target = capture_path+'/'+pcap
             #print(target)
             if 'cell' not in target:
-                print('parsing and deleting' + target)
+                print('parsing and moving' + target)
                 read_tls(target)
-                os.system('rm '+target)
+                os.system('rm '+target)#+' ./pcaps')
         except:
             #palce holder
             pass

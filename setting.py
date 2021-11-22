@@ -1,13 +1,13 @@
 
 #the path to TBB firefox
-tbb_dir = '/home/xmu/Desktop/tor_crawler/tor-browser_en-US'
-geckodriver_path = '/home/xmu/Desktop/tor_crawler/geckodriver'
+tbb_dir = '/root/tor_crawler/tor-browser_en-US'
+geckodriver_path = '/root/tor_crawler/geckodriver'
 mon_websites_path = './targets/alexa_top_100.txt'
 
 #the path to the logs
-visit_log_path = '/home/xmu/Desktop/tor_crawler/logs/visit_log.txt'
-geckodriver_log_path = '/home/xmu/Desktop/tor_crawler/logs/firefox.txt'
-parse_log_path = '/home/xmu/Desktop/tor_crawler/logs/parse.txt'
+visit_log_path = '/root/tor_crawler/logs/visit_log.txt'
+geckodriver_log_path = '/root/tor_crawler/logs/firefox.txt'
+parse_log_path = '/root/tor_crawler/logs/parse.txt'
 #path to cap results
 capture_path = './results'
 

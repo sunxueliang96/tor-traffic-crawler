@@ -14,9 +14,9 @@ class Crawler():
         self.NB_of_tabs = NB_of_tabs
         self.NB_of_samples = NB_of_samples
         #clean the logs
-        subprocess.Popen(['echo start','>',visit_log_path])
-        subprocess.Popen(['echo start','>',geckodriver_log_path])
-        subprocess.Popen(['echo start','>',parse_log_path])
+        os.system('echo start > ' + visit_log_path)
+        os.system('echo start > ' + geckodriver_log_path)
+        os.system('echo start > ' + parse_log_path)
 
     def read_mon_websites(self):
         with open(self.mon_websites_path,'r') as f:

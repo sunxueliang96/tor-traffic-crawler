@@ -41,7 +41,7 @@ def start_capture(labels,time_gaps,counts):
     labels = '_'.join(labels)
     time_gaps = '_'.join(list(map(str,time_gaps)))
 
-    cmd = 'sudo tshark -w '+ capture_path +'/'+ labels + '-' + time_gaps + '-' + counts + '.cap -i any -f "port '+ str(sniff_port )+ '"'
+    cmd = 'sudo tshark -w '+ capture_path +'/'+ labels + '-' + time_gaps + '-' + counts + ".cap -i eth0 -f 'not host 59.77.17.13'"
     tshark = subprocess.Popen(cmd,stdout=subprocess.PIPE,shell=True)
     return tshark
 

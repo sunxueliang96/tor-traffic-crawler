@@ -3,7 +3,7 @@ from setting import *
 from utils import *
 import time 
 import random
-
+import os
 
 class Visit():
     def __init__(self): #urls->lists
@@ -31,8 +31,9 @@ class Visit():
         processes = []
         for url,gap in zip(urls,time_gaps):
             print("loading the "+str(url)+" and then sleep " + str(gap))
-            processes.append(subprocess.Popen(['python','meta_visit.py',url]))
+            processes.append(subprocess.Popen(['python2','meta_visit.py',url]))
             time.sleep(int(gap))
+           # os.system('ping 8.8.8.8 -c 1')
         #time to kill ext firefox.real but keep the sockets 
         pid_now = get_pid_firefox()
         for pid in pid_now:
