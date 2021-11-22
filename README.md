@@ -2,13 +2,9 @@
 
 # Quick Start
 
-## First, start the tor service, and listen at socket 9150.
-$bash ./path_to_tbb/firefox  #if you download tbb.tar.xz from TOR project.
-
-## Second 
 $python crawler
 
-## You can find all .pcap at results/
+## You can find all .cell at results/
 
 ## It is recommanded to use the [docker image](https://registry.hub.docker.com/r/sunxueliang96/tor-traffic-crawler). 
 
