@@ -26,4 +26,4 @@ All configs
 Launch a set of visits
 
 ### parse.py
-You must code your parse script.
+You must code your parse script, if you need other format of data instead of pcap or cell.
