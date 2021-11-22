@@ -31,3 +31,6 @@ utils.py
 
 visit.py
 ### launch a set of visits
+
+parse.py
+### you must code your own parse script
