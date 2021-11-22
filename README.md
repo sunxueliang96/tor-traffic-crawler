@@ -14,7 +14,7 @@ $python crawler
 
 # The Description of FILES
 ### crawler.py
-The core of crawler
+The core of the crawler
 
 ### meta_visit.py
 Launch one visit to one site
@@ -26,4 +26,4 @@ All configs
 Launch a set of visits
 
 ### parse.py
-You must code your own parse script
+You must code your parse script.
